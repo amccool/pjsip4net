@@ -85,12 +85,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiProviders\AccountApiProvider_2_5.cs" />
     <Compile Include="ApiProviders\AccountApiProvider_1_4.cs" />
+    <Compile Include="ApiProviders\BasicApiProvider_2_5.cs" />
     <Compile Include="ApiProviders\BasicApiProvider_1_4.cs" />
+    <Compile Include="ApiProviders\CallApiProvider_2_5.cs" />
     <Compile Include="ApiProviders\CallApiProvider_1_4.cs" />
+    <Compile Include="ApiProviders\ImApiProvider_2_5.cs" />
     <Compile Include="ApiProviders\ImApiProvider_1_4.cs" />
+    <Compile Include="ApiProviders\MediaApiProvider_2_5.cs" />
     <Compile Include="ApiProviders\MediaApiProvider_1_4.cs" />
+    <Compile Include="ApiProviders\TransportApiProvider_2_5.cs" />
     <Compile Include="ApiProviders\TransportApiProvider_1_4.cs" />
+    <Compile Include="ConfigureVersion_2_5.cs" />
     <Compile Include="ConfigureVersion_1_4.cs" />
     <Compile Include="CredentialExtensions.cs" />
     <Compile Include="Interfaces\IMapper.cs" />
@@ -106,6 +113,7 @@
     <Compile Include="Services\SoundDeviceInfoConverter.cs" />
     <Compile Include="Services\TransportInfoConverter.cs" />
     <Compile Include="TransportTypeExtensions.cs" />
+    <Compile Include="Version_2_5_ComponentConfigurator.cs" />
     <Compile Include="Version_1_4_ComponentConfigurator.cs" />
   </ItemGroup>
   <ItemGroup>
